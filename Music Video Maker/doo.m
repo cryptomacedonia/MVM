@@ -63,7 +63,8 @@
 // NSString * passedPath2=[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:jsonFile];
     
     NSMutableArray * compositions=[NSMutableArray new];
-    NSString         *content = [NSString stringWithContentsOfFile:jsonFile encoding:NSUTF8StringEncoding error:nil];
+    NSError * error;
+    NSString         *content = [NSString stringWithContentsOfFile:jsonFile encoding:NSUTF8StringEncoding error:&error];
     NSData *data = [content dataUsingEncoding:NSUTF8StringEncoding];
     NSDictionary *  json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
     

@@ -739,13 +739,14 @@ NSNumber *num;
     
     
     Clip * one = objectArray[0];
- NSString * json =   [one makeJson:tracks];
-    NSLog(@"%@",json);
-    
-    NSString * savePath = [NSTemporaryDirectory() stringByAppendingPathComponent:@"data.json"];
-    
- BOOL result =   [json writeToFile:savePath atomically:YES];
-    
+    NSString *json = [one makeJson:tracks];
+    NSLog(@"%@", json);
+
+    NSString *savePath = [NSTemporaryDirectory() stringByAppendingPathComponent:@"data.json"];
+
+    NSError *error = nil;
+    BOOL result = [json writeToFile:savePath atomically:YES encoding:NSUTF8StringEncoding error:&error];
+
     if(result)
         [[NSNotificationCenter defaultCenter] postNotificationName:@"showPlayWindow" object:nil];
     
