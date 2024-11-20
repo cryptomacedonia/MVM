@@ -1,0 +1,366 @@
+{
+  "sequences" : [
+    [
+      {
+        "track" : [
+          {
+            "groupOffset" : 0,
+            "durationInSeconds" : 155.44,
+            "FPS" : 25,
+            "fileSize" : 15958340,
+            "uniqueId" : "WWDS6E2807",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/MVI_2563-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 232.008,
+            "durationInSeconds" : 32,
+            "FPS" : 25,
+            "fileSize" : 3262078,
+            "uniqueId" : "WWDSE48B7A",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/MVI_2565-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 285.48,
+            "durationInSeconds" : 130.88,
+            "FPS" : 25,
+            "fileSize" : 13387941,
+            "uniqueId" : "WWDS46CEDC",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/MVI_2566-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 527.424,
+            "durationInSeconds" : 197.8,
+            "FPS" : 25,
+            "fileSize" : 20273280,
+            "uniqueId" : "WWDSB45577",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/MVI_2557-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 851.208,
+            "durationInSeconds" : 325.52,
+            "FPS" : 25,
+            "fileSize" : 34693928,
+            "uniqueId" : "WWDS7CAC0C",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0121-XDCAM EX-Small-1.m4v"
+          }
+        ]
+      },
+      {
+        "track" : [
+          {
+            "groupOffset" : 4.704,
+            "durationInSeconds" : 377.28,
+            "FPS" : 25,
+            "fileSize" : 39732922,
+            "uniqueId" : "WWDS11FF15",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/P1040736-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 389.184,
+            "durationInSeconds" : 6.6,
+            "FPS" : 25,
+            "fileSize" : 717899,
+            "uniqueId" : "WWDSD06C21",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0142-XDCAM EX-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 403.8,
+            "durationInSeconds" : 195.48,
+            "FPS" : 25,
+            "fileSize" : 20838154,
+            "uniqueId" : "WWDSD2EBF4",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0119-XDCAM EX-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 618.552,
+            "durationInSeconds" : 214.52,
+            "FPS" : 25,
+            "fileSize" : 22871010,
+            "uniqueId" : "WWDS65678A",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0120-XDCAM EX-Small.m4v"
+          },
+          {
+            "groupOffset" : 884.232,
+            "durationInSeconds" : 85.64,
+            "FPS" : 25,
+            "fileSize" : 8730627,
+            "uniqueId" : "WWDS796BE6",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/MVI_2558-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 1054.8,
+            "durationInSeconds" : 31.68,
+            "FPS" : 25,
+            "fileSize" : 3227428,
+            "uniqueId" : "WWDSB065F6",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/MVI_2559-Small-1.m4v"
+          }
+        ]
+      },
+      {
+        "track" : [
+          {
+            "groupOffset" : 27.552,
+            "durationInSeconds" : 20.24,
+            "FPS" : 25,
+            "fileSize" : 2169032,
+            "uniqueId" : "WWDS4F4E3E",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0131-XDCAM EX-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 118.296,
+            "durationInSeconds" : 12.8,
+            "FPS" : 25,
+            "fileSize" : 1378011,
+            "uniqueId" : "WWDS5DB1DF",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0134-XDCAM EX-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 149.064,
+            "durationInSeconds" : 369.12,
+            "FPS" : 25,
+            "fileSize" : 38875740,
+            "uniqueId" : "WWDS5B8D97",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/P1040734-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 670.392,
+            "durationInSeconds" : 370.08,
+            "FPS" : 25,
+            "fileSize" : 38979121,
+            "uniqueId" : "WWDS0F3A60",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/P1040733-Small-1.m4v"
+          }
+        ]
+      },
+      {
+        "track" : [
+          {
+            "groupOffset" : 27.552,
+            "durationInSeconds" : 20.24,
+            "FPS" : 25,
+            "fileSize" : 2169032,
+            "uniqueId" : "WWDSD512E1",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0131-XDCAMEX-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 244.944,
+            "durationInSeconds" : 16.4,
+            "FPS" : 25,
+            "fileSize" : 1759043,
+            "uniqueId" : "WWDS8739C4",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0137-XDCAM EX-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 298.584,
+            "durationInSeconds" : 13.6,
+            "FPS" : 25,
+            "fileSize" : 1465835,
+            "uniqueId" : "WWDS9DBD2D",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0138-XDCAM EX-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 336.96,
+            "durationInSeconds" : 154.56,
+            "FPS" : 25,
+            "fileSize" : 16475276,
+            "uniqueId" : "WWDS545FFF",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0122-XDCAM EX-Small-1.m4v"
+          }
+        ]
+      },
+      {
+        "track" : [
+          {
+            "groupOffset" : 303.648,
+            "durationInSeconds" : 366.72,
+            "FPS" : 25,
+            "fileSize" : 38559848,
+            "uniqueId" : "WWDS45BEDE",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/P1040732-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 0,
+            "durationInSeconds" : 155.44,
+            "FPS" : 25,
+            "fileSize" : 15958340,
+            "uniqueId" : "WWDS6E2807",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/MVI_2563-Small-1.m4v"
+          }
+        ]
+      },
+      {
+        "track" : [
+          {
+            "groupOffset" : 366.936,
+            "durationInSeconds" : 8.52,
+            "FPS" : 25,
+            "fileSize" : 924548,
+            "uniqueId" : "WWDSC22A4A",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0140-XDCAM EX-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 27.552,
+            "durationInSeconds" : 20.24,
+            "FPS" : 25,
+            "fileSize" : 2169032,
+            "uniqueId" : "WWDS4F4E3E",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0131-XDCAM EX-Small-1.m4v"
+          }
+        ]
+      },
+      {
+        "track" : [
+          {
+            "groupOffset" : 370.056,
+            "durationInSeconds" : 140.76,
+            "FPS" : 25,
+            "fileSize" : 14428335,
+            "uniqueId" : "WWDSA0DC2E",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/MVI_2560-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 27.552,
+            "durationInSeconds" : 20.24,
+            "FPS" : 25,
+            "fileSize" : 2169032,
+            "uniqueId" : "WWDSD512E1",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0131-XDCAMEX-Small-1.m4v"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "track" : [
+          {
+            "groupOffset" : 0,
+            "durationInSeconds" : 365.76,
+            "FPS" : 25,
+            "fileSize" : 38722935,
+            "uniqueId" : "WWDSDDA5B0",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/P1040737-Small-1.m4v"
+          }
+        ]
+      },
+      {
+        "track" : [
+          {
+            "groupOffset" : 130.224,
+            "durationInSeconds" : 76.68,
+            "FPS" : 25,
+            "fileSize" : 7828983,
+            "uniqueId" : "WWDSA0A5C6",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/MVI_2569-Small-1.m4v"
+          }
+        ]
+      },
+      {
+        "track" : [
+          {
+            "groupOffset" : 180.48,
+            "durationInSeconds" : 13.52,
+            "FPS" : 25,
+            "fileSize" : 1446801,
+            "uniqueId" : "WWDS003A5C",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0143-XDCAM EX-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 202.176,
+            "durationInSeconds" : 9.52,
+            "FPS" : 25,
+            "fileSize" : 743275,
+            "uniqueId" : "WWDS377C22",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0144-XDCAM EX-Small-1.m4v"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "track" : [
+          {
+            "groupOffset" : 0,
+            "durationInSeconds" : 351.84,
+            "FPS" : 25,
+            "fileSize" : 37099873,
+            "uniqueId" : "WWDSD898C5",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/P1040735-Small-1.m4v"
+          }
+        ]
+      },
+      {
+        "track" : [
+          {
+            "groupOffset" : 18.312,
+            "durationInSeconds" : 168.84,
+            "FPS" : 25,
+            "fileSize" : 17251991,
+            "uniqueId" : "WWDS6DF482",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/MVI_2561-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 200.592,
+            "durationInSeconds" : 124.16,
+            "FPS" : 25,
+            "fileSize" : 12706893,
+            "uniqueId" : "WWDS9D7BA4",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/MVI_2562-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 345.456,
+            "durationInSeconds" : 7.52,
+            "FPS" : 25,
+            "fileSize" : 809321,
+            "uniqueId" : "WWDS9E14EE",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0130-XDCAM EX-Small-1.m4v"
+          }
+        ]
+      },
+      {
+        "track" : [
+          {
+            "groupOffset" : 32.736,
+            "durationInSeconds" : 6.8,
+            "FPS" : 25,
+            "fileSize" : 739047,
+            "uniqueId" : "WWDSDD600A",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0124-XDCAM EX-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 62.256,
+            "durationInSeconds" : 7.72,
+            "FPS" : 25,
+            "fileSize" : 633301,
+            "uniqueId" : "WWDS40CE9D",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0125-XDCAM EX-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 121.8,
+            "durationInSeconds" : 12,
+            "FPS" : 25,
+            "fileSize" : 1279292,
+            "uniqueId" : "WWDSDEAAB2",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0126-XDCAM EX-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 145.584,
+            "durationInSeconds" : 12.72,
+            "FPS" : 25,
+            "fileSize" : 1361232,
+            "uniqueId" : "WWDSD704CA",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0127-XDCAM EX-Small-1.m4v"
+          },
+          {
+            "groupOffset" : 216.408,
+            "durationInSeconds" : 96.6,
+            "FPS" : 25,
+            "fileSize" : 10315006,
+            "uniqueId" : "WWDS5FDD33",
+            "filePath" : "\/Users\/Igor\/Documents\/band\/DSC_0129-XDCAM EX-Small-1.m4v"
+          }
+        ]
+      }
+    ]
+  ]
+}

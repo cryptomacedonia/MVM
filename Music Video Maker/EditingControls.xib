@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="EditingControls">
+            <connections>
+                <outlet property="exportButton" destination="nHz-7W-oQ0" id="OSF-4p-zWL"/>
+                <outlet property="filtersButton" destination="uLn-j8-VL6" id="GY4-Vj-XYm"/>
+                <outlet property="gotoStart" destination="nEZ-v1-Jn7" id="NyH-ff-ceW"/>
+                <outlet property="gotoendbutton" destination="KuZ-PZ-RFa" id="1Xh-zg-2Fo"/>
+                <outlet property="nexteditbutton" destination="cG5-R7-THI" id="f3d-0N-Hgn"/>
+                <outlet property="playButton" destination="87X-ez-DYd" id="0hC-hh-fUo"/>
+                <outlet property="previewButton" destination="TFw-cR-dIc" id="EeR-Iy-5lW"/>
+                <outlet property="previousEdit" destination="bFj-6l-Wrx" id="pj2-qU-tkZ"/>
+                <outlet property="stopButton" destination="fti-Xk-PSe" id="CTo-a7-nf6"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window identifier="EditingControls" title="Controls" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" miniaturizable="YES" texturedBackground="YES"/>
+            <windowPositionMask key="initialPositionMask" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="321" y="61" width="693" height="100"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="693" height="100"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Apt-v0-QEJ">
+                        <rect key="frame" x="0.0" y="0.0" width="693" height="100"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="controls" id="y5u-OC-JTY"/>
+                    </imageView>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TFw-cR-dIc" userLabel="previewButton">
+                        <rect key="frame" x="38" y="26" width="48" height="48"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="qjf-9b-GUK">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="switchpreview:" target="-2" id="aN1-aX-E0i"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bFj-6l-Wrx" userLabel="previousEdit">
+                        <rect key="frame" x="110" y="26" width="48" height="48"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="rWc-IN-LOF">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="previousEdit:" target="-2" id="SF0-aC-DRf"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nEZ-v1-Jn7" userLabel="gotostart">
+                        <rect key="frame" x="180" y="26" width="48" height="48"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="n6I-A6-UiP">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="gotostart:" target="-2" id="5bh-eU-oGe"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="87X-ez-DYd" userLabel="play">
+                        <rect key="frame" x="248" y="26" width="48" height="48"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="T3o-TU-CXL">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="play:" target="-2" id="pKs-X3-Bhe"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fti-Xk-PSe" userLabel="stop">
+                        <rect key="frame" x="318" y="26" width="48" height="48"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="16Z-Fl-jp8">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="stop:" target="-2" id="NOb-lX-J0e"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KuZ-PZ-RFa" userLabel="gotoend">
+                        <rect key="frame" x="388" y="26" width="48" height="48"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="eU4-Jn-n3E">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="gotoend:" target="-2" id="BQ5-hV-dHj"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cG5-R7-THI" userLabel="nectEdit">
+                        <rect key="frame" x="456" y="26" width="48" height="48"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="biq-AT-VTP">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="nectedit:" target="-2" id="JTD-ZN-oJP"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uLn-j8-VL6" userLabel="filters">
+                        <rect key="frame" x="534" y="26" width="48" height="48"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="7dJ-rz-HUg">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="filters:" target="-2" id="lK9-4E-7o8"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nHz-7W-oQ0" userLabel="export">
+                        <rect key="frame" x="623" y="26" width="48" height="48"/>
+                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="afP-hg-gMO">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="export:" target="-2" id="7Oe-28-csl"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Apt-v0-QEJ" secondAttribute="bottom" id="M3L-os-b5R"/>
+                    <constraint firstAttribute="trailing" secondItem="Apt-v0-QEJ" secondAttribute="trailing" id="bAY-xd-vxM"/>
+                    <constraint firstItem="Apt-v0-QEJ" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" id="l6Z-7y-G31"/>
+                    <constraint firstItem="Apt-v0-QEJ" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" id="vup-Op-lE0"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="368.5" y="226"/>
+        </window>
+        <userDefaultsController representsSharedInstance="YES" id="EeH-OE-efc"/>
+    </objects>
+    <resources>
+        <image name="controls" width="693" height="100"/>
+    </resources>
+</document>

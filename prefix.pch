@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'AVCompositionDebugViewer' target in the 'AVCompositionDebugViewer' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+    #import <AVFoundation/AVFoundation.h>
+    #import "NSString+MD5.h"
+    #import "SDAVAssetExportSession.h"
+    #import "doo.h"
+
+typedef void(^BlockHandler_Dict)(NSMutableDictionary *retDict);
+typedef void(^BlockHandler_Bool)(bool retBool);
+typedef void(^BlockHandler_Array)(NSMutableArray * retArray);
+typedef void(^BlockHandler_String)(NSString * retString);
+typedef void(^BlockHandler_NSImage)(NSImage * retImage);
+ #import "Clip.h"
+#endif

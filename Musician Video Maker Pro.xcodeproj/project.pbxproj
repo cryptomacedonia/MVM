@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7888B5AA1D3F9FD3001D7FC6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7888B5A91D3F9FD3001D7FC6 /* CFNetwork.framework */; };
+		788F8F912CEE68DB0078D5C7 /* CustomAVPlayerView.h in Sources */ = {isa = PBXBuildFile; fileRef = 788F8F902CEE68DB0078D5C7 /* CustomAVPlayerView.h */; };
+		788F8F932CEE68FC0078D5C7 /* CustomAVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 788F8F922CEE68FC0078D5C7 /* CustomAVPlayerView.m */; };
+		789D5AC21D0ADB650020FEED /* WWCellCustom1.m in Sources */ = {isa = PBXBuildFile; fileRef = 78812DA01CE7421100CE3AFA /* WWCellCustom1.m */; };
+		789D5AC31D0ADB650020FEED /* doo.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EFFF3D1CC50835007B60D2 /* doo.m */; };
+		789D5AC41D0ADB650020FEED /* WWNSTableView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 78812DA21CE7421100CE3AFA /* WWNSTableView.mm */; };
+		789D5AC51D0ADB650020FEED /* mainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78812D941CE346B200CE3AFA /* mainController.m */; };
+		789D5AC61D0ADB650020FEED /* splashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78950BE81CF374D800EE8F58 /* splashController.m */; };
+		789D5AC71D0ADB650020FEED /* customTrackingArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 781BB4971CC7918C00F81BBB /* customTrackingArea.m */; };
+		789D5AC81D0ADB650020FEED /* JNWAnimatableWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 78950BEB1CF47C9200EE8F58 /* JNWAnimatableWindow.m */; };
+		789D5AC91D0ADB650020FEED /* RMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 786DC5D01D074383000EA925 /* RMStore.m */; };
+		789D5ACA1D0ADB650020FEED /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C8975E1D060C5B00334C67 /* SSKeychain.m */; };
+		789D5ACB1D0ADB650020FEED /* customTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D4690C1CED460300E1EC51 /* customTableView.m */; };
+		789D5ACC1D0ADB650020FEED /* splashWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78950BE51CF373D500EE8F58 /* splashWindowController.m */; };
+		789D5ACD1D0ADB650020FEED /* paymentFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C8976C1D0708FD00334C67 /* paymentFormatter.m */; };
+		789D5ACE1D0ADB650020FEED /* functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D469111CEE312000E1EC51 /* functions.cpp */; };
+		789D5ACF1D0ADB650020FEED /* Clip.mm in Sources */ = {isa = PBXBuildFile; fileRef = 78D469091CECBAC400E1EC51 /* Clip.mm */; };
+		789D5AD01D0ADB650020FEED /* customCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D4690F1CED47E300E1EC51 /* customCellView.m */; };
+		789D5AD11D0ADB650020FEED /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 7825BDCF1D08C1C200774CB7 /* NSString+MD5.m */; };
+		789D5AD21D0ADB650020FEED /* subscriptionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 786DC6921D0837AE000EA925 /* subscriptionList.m */; };
+		789D5AD31D0ADB650020FEED /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EFFF481CC55747007B60D2 /* WindowController.m */; };
+		789D5AD41D0ADB650020FEED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EFFF271CC40192007B60D2 /* ViewController.m */; };
+		789D5AD51D0ADB650020FEED /* filesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78812FBC1CE783AA00CE3AFA /* filesWindowController.m */; };
+		789D5AD61D0ADB650020FEED /* ListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D647241CEA589800907C06 /* ListController.m */; };
+		789D5AD71D0ADB650020FEED /* playController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EFFF3A1CC4ED8F007B60D2 /* playController.m */; };
+		789D5AD81D0ADB650020FEED /* imageCalibrationPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D83771CFF2B470010C9B7 /* imageCalibrationPopoverController.m */; };
+		789D5AD91D0ADB650020FEED /* jsoncpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D4692E1CF2088200E1EC51 /* jsoncpp.cpp */; };
+		789D5ADA1D0ADB650020FEED /* customImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 781BB49A1CC900B800F81BBB /* customImageView.m */; };
+		789D5ADB1D0ADB650020FEED /* customTableRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78812DA61CE742E700CE3AFA /* customTableRowView.m */; };
+		789D5ADC1D0ADB650020FEED /* TDAuthWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C897531D05A68400334C67 /* TDAuthWindowController.m */; };
+		789D5ADD1D0ADB650020FEED /* SDAVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 78812D971CE3CF3400CE3AFA /* SDAVAssetExportSession.m */; };
+		789D5ADE1D0ADB650020FEED /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C897601D060C5B00334C67 /* SSKeychainQuery.m */; };
+		789D5ADF1D0ADB650020FEED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EFFF241CC40192007B60D2 /* main.m */; };
+		789D5AE01D0ADB650020FEED /* EditingControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 7825BDD21D09579900774CB7 /* EditingControls.m */; };
+		789D5AE11D0ADB650020FEED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EFFF211CC40192007B60D2 /* AppDelegate.m */; };
+		789D5AE21D0ADB650020FEED /* importedFilesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EFFF371CC4EC97007B60D2 /* importedFilesController.m */; };
+		789D5AE31D0ADB650020FEED /* NSImage+ContentMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EFFF4D1CC67E41007B60D2 /* NSImage+ContentMode.m */; };
+		789D5AE51D0ADB650020FEED /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7825BDDA1D0A3F4F00774CB7 /* CoreFoundation.framework */; };
+		789D5AE61D0ADB650020FEED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7825BDD61D0988B100774CB7 /* CoreGraphics.framework */; };
+		789D5AE71D0ADB650020FEED /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C897631D060C7E00334C67 /* Security.framework */; };
+		789D5AE81D0ADB650020FEED /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785374D01CFF06A700A2AB35 /* CoreImage.framework */; };
+		789D5AE91D0ADB650020FEED /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D672B41CFB5C94000CBE3E /* libz.1.2.5.tbd */; };
+		789D5AEA1D0ADB650020FEED /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D672B21CFB5C89000CBE3E /* libsqlite3.0.tbd */; };
+		789D5AEE1D0ADB650020FEED /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D672B01CFB58AD000CBE3E /* SystemConfiguration.framework */; };
+		789D5AF61D0ADB650020FEED /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78950BEF1CF47E0A00EE8F58 /* Quartz.framework */; };
+		789D5AFA1D0ADB650020FEED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78950BED1CF47E0100EE8F58 /* QuartzCore.framework */; };
+		789D5AFB1D0ADB650020FEED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EFFF451CC52FDD007B60D2 /* Foundation.framework */; };
+		789D5AFD1D0ADB650020FEED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EFFF431CC52FD1007B60D2 /* AVFoundation.framework */; };
+		789D5AFE1D0ADB650020FEED /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EFFF411CC52FCB007B60D2 /* AVKit.framework */; };
+		789D5B031D0ADB650020FEED /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 78EFFF341CC405FD007B60D2 /* icon.icns */; };
+		789D5B041D0ADB650020FEED /* TDAuthWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C8974E1D05A62700334C67 /* TDAuthWindowController.xib */; };
+		789D5B061D0ADB650020FEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EFFF291CC40192007B60D2 /* Assets.xcassets */; };
+		789D5B071D0ADB650020FEED /* EditingControls.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7825BDD31D09579900774CB7 /* EditingControls.xib */; };
+		789D5B081D0ADB650020FEED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78EFFF2B1CC40192007B60D2 /* Main.storyboard */; };
+		789D5B091D0ADB650020FEED /* loop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 78C8974A1D02D86400334C67 /* loop.mp4 */; };
+		789D5B0A1D0ADB650020FEED /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 78EFFF3F1CC50E6A007B60D2 /* data.json */; };
+		789D5B0B1D0ADB650020FEED /* rect.png in Resources */ = {isa = PBXBuildFile; fileRef = 78EFFF4A1CC56ED3007B60D2 /* rect.png */; };
+		789D5B0C1D0ADB650020FEED /* subscriptionList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 786DC6931D0837AE000EA925 /* subscriptionList.xib */; };
+		789D5B0D1D0ADB650020FEED /* TodoList.icns in Resources */ = {isa = PBXBuildFile; fileRef = 78C897501D05A63300334C67 /* TodoList.icns */; };
+		789D5B0E1D0ADB650020FEED /* alpha.mov in Resources */ = {isa = PBXBuildFile; fileRef = 78C8974C1D030ECA00334C67 /* alpha.mov */; };
+		789D5B191D0B27840020FEED /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 789D5B181D0B27840020FEED /* dsa_pub.pem */; };
+		78C037BF1D10694A00916FB2 /* 1024_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C037BE1D10694A00916FB2 /* 1024_1024.png */; };
+		78C037C21D11A1FE00916FB2 /* NSImage+CGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C037C11D11A1FE00916FB2 /* NSImage+CGImage.m */; };
+		78C037C41D13DBB300916FB2 /* musicianvideomaker4.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C037C31D13DBB300916FB2 /* musicianvideomaker4.png */; };
+		78C037C61D13E25C00916FB2 /* watermark1.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C037C51D13E25C00916FB2 /* watermark1.png */; };
+		78C037CA1D1464F600916FB2 /* exportSubscriptionAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C037C81D1464F600916FB2 /* exportSubscriptionAd.m */; };
+		78C037CB1D1464F600916FB2 /* exportSubscriptionAd.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C037C91D1464F600916FB2 /* exportSubscriptionAd.xib */; };
+		CA20BDFE29B0CA0700441936 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA20BDFD29B0CA0700441936 /* File.swift */; };
+		CA3CF1801EBDD7140035E5D4 /* WOO_AVURLAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3CF17F1EBDD7140035E5D4 /* WOO_AVURLAsset.m */; };
+		CA3CF1831EBDE6260035E5D4 /* WOO_AVCompositionTrackSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3CF1821EBDE6260035E5D4 /* WOO_AVCompositionTrackSegment.m */; };
+		CA3CF1861EBE31540035E5D4 /* globalData.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3CF1851EBE31540035E5D4 /* globalData.m */; };
+		CA3CF1881EBF74770035E5D4 /* button_u.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3CF1871EBF74770035E5D4 /* button_u.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		789D5B111D0ADB650020FEED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		781BB4961CC7918C00F81BBB /* customTrackingArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customTrackingArea.h; sourceTree = "<group>"; };
+		781BB4971CC7918C00F81BBB /* customTrackingArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customTrackingArea.m; sourceTree = "<group>"; };
+		781BB4991CC900B800F81BBB /* customImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customImageView.h; sourceTree = "<group>"; };
+		781BB49A1CC900B800F81BBB /* customImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customImageView.m; sourceTree = "<group>"; };
+		7825BDCE1D08C1C200774CB7 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "DJProgressHUD/NSString+MD5.h"; sourceTree = "<group>"; };
+		7825BDCF1D08C1C200774CB7 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "DJProgressHUD/NSString+MD5.m"; sourceTree = "<group>"; };
+		7825BDD11D09579900774CB7 /* EditingControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditingControls.h; sourceTree = "<group>"; };
+		7825BDD21D09579900774CB7 /* EditingControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditingControls.m; sourceTree = "<group>"; };
+		7825BDD31D09579900774CB7 /* EditingControls.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditingControls.xib; sourceTree = "<group>"; };
+		7825BDD61D0988B100774CB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7825BDDA1D0A3F4F00774CB7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		783D83761CFF2B470010C9B7 /* imageCalibrationPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageCalibrationPopoverController.h; sourceTree = "<group>"; };
+		783D83771CFF2B470010C9B7 /* imageCalibrationPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageCalibrationPopoverController.m; sourceTree = "<group>"; };
+		785374D01CFF06A700A2AB35 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		786DC5CF1D074382000EA925 /* RMStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStore.h; sourceTree = "<group>"; };
+		786DC5D01D074383000EA925 /* RMStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStore.m; sourceTree = "<group>"; };
+		786DC6911D0837AE000EA925 /* subscriptionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subscriptionList.h; sourceTree = "<group>"; };
+		786DC6921D0837AE000EA925 /* subscriptionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subscriptionList.m; sourceTree = "<group>"; };
+		786DC6931D0837AE000EA925 /* subscriptionList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = subscriptionList.xib; sourceTree = "<group>"; };
+		78812D931CE346B100CE3AFA /* mainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainController.h; sourceTree = "<group>"; };
+		78812D941CE346B200CE3AFA /* mainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainController.m; sourceTree = "<group>"; };
+		78812D961CE3CF3400CE3AFA /* SDAVAssetExportSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAVAssetExportSession.h; sourceTree = "<group>"; };
+		78812D971CE3CF3400CE3AFA /* SDAVAssetExportSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAVAssetExportSession.m; sourceTree = "<group>"; };
+		78812D9F1CE7421100CE3AFA /* WWCellCustom1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWCellCustom1.h; sourceTree = "<group>"; };
+		78812DA01CE7421100CE3AFA /* WWCellCustom1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWCellCustom1.m; sourceTree = "<group>"; };
+		78812DA11CE7421100CE3AFA /* WWNSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWNSTableView.h; sourceTree = "<group>"; };
+		78812DA21CE7421100CE3AFA /* WWNSTableView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WWNSTableView.mm; sourceTree = "<group>"; };
+		78812DA51CE742E700CE3AFA /* customTableRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customTableRowView.h; sourceTree = "<group>"; };
+		78812DA61CE742E700CE3AFA /* customTableRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customTableRowView.m; sourceTree = "<group>"; };
+		78812FBB1CE783AA00CE3AFA /* filesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filesWindowController.h; sourceTree = "<group>"; };
+		78812FBC1CE783AA00CE3AFA /* filesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = filesWindowController.m; sourceTree = "<group>"; };
+		7888B5A91D3F9FD3001D7FC6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		788F8F902CEE68DB0078D5C7 /* CustomAVPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAVPlayerView.h; sourceTree = "<group>"; };
+		788F8F922CEE68FC0078D5C7 /* CustomAVPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAVPlayerView.m; sourceTree = "<group>"; };
+		78950BE41CF373D500EE8F58 /* splashWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = splashWindowController.h; sourceTree = "<group>"; };
+		78950BE51CF373D500EE8F58 /* splashWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = splashWindowController.m; sourceTree = "<group>"; };
+		78950BE71CF374D800EE8F58 /* splashController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = splashController.h; sourceTree = "<group>"; };
+		78950BE81CF374D800EE8F58 /* splashController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = splashController.m; sourceTree = "<group>"; };
+		78950BEA1CF47C9200EE8F58 /* JNWAnimatableWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNWAnimatableWindow.h; sourceTree = "<group>"; };
+		78950BEB1CF47C9200EE8F58 /* JNWAnimatableWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNWAnimatableWindow.m; sourceTree = "<group>"; };
+		78950BED1CF47E0100EE8F58 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		78950BEF1CF47E0A00EE8F58 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		789D5B151D0ADB650020FEED /* Musician Video Maker Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Musician Video Maker Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		789D5B181D0B27840020FEED /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		78C037BE1D10694A00916FB2 /* 1024_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024_1024.png; sourceTree = "<group>"; };
+		78C037C01D11A1FE00916FB2 /* NSImage+CGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+CGImage.h"; sourceTree = "<group>"; };
+		78C037C11D11A1FE00916FB2 /* NSImage+CGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+CGImage.m"; sourceTree = "<group>"; };
+		78C037C31D13DBB300916FB2 /* musicianvideomaker4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicianvideomaker4.png; sourceTree = "<group>"; };
+		78C037C51D13E25C00916FB2 /* watermark1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermark1.png; sourceTree = "<group>"; };
+		78C037C71D1464F600916FB2 /* exportSubscriptionAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exportSubscriptionAd.h; sourceTree = "<group>"; };
+		78C037C81D1464F600916FB2 /* exportSubscriptionAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exportSubscriptionAd.m; sourceTree = "<group>"; };
+		78C037C91D1464F600916FB2 /* exportSubscriptionAd.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = exportSubscriptionAd.xib; sourceTree = "<group>"; };
+		78C8974A1D02D86400334C67 /* loop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loop.mp4; sourceTree = "<group>"; };
+		78C8974C1D030ECA00334C67 /* alpha.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = alpha.mov; sourceTree = "<group>"; };
+		78C8974E1D05A62700334C67 /* TDAuthWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDAuthWindowController.xib; sourceTree = "<group>"; };
+		78C897501D05A63300334C67 /* TodoList.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TodoList.icns; sourceTree = "<group>"; };
+		78C897521D05A68400334C67 /* TDAuthWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAuthWindowController.h; sourceTree = "<group>"; };
+		78C897531D05A68400334C67 /* TDAuthWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAuthWindowController.m; sourceTree = "<group>"; };
+		78C8975D1D060C5B00334C67 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		78C8975E1D060C5B00334C67 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		78C8975F1D060C5B00334C67 /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
+		78C897601D060C5B00334C67 /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
+		78C897631D060C7E00334C67 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		78C8976B1D0708FD00334C67 /* paymentFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paymentFormatter.h; sourceTree = "<group>"; };
+		78C8976C1D0708FD00334C67 /* paymentFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paymentFormatter.m; sourceTree = "<group>"; };
+		78D469081CECBAC400E1EC51 /* Clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clip.h; sourceTree = "<group>"; };
+		78D469091CECBAC400E1EC51 /* Clip.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Clip.mm; sourceTree = "<group>"; };
+		78D4690B1CED460300E1EC51 /* customTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customTableView.h; sourceTree = "<group>"; };
+		78D4690C1CED460300E1EC51 /* customTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customTableView.m; sourceTree = "<group>"; };
+		78D4690E1CED47E300E1EC51 /* customCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCellView.h; sourceTree = "<group>"; };
+		78D4690F1CED47E300E1EC51 /* customCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCellView.m; sourceTree = "<group>"; };
+		78D469111CEE312000E1EC51 /* functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = functions.cpp; sourceTree = "<group>"; };
+		78D469121CEE312000E1EC51 /* functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
+		78D4692C1CF2088200E1EC51 /* json-forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "json-forwards.h"; sourceTree = "<group>"; };
+		78D4692D1CF2088200E1EC51 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		78D4692E1CF2088200E1EC51 /* jsoncpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsoncpp.cpp; sourceTree = "<group>"; };
+		78D647231CEA589800907C06 /* ListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListController.h; path = ../ListController.h; sourceTree = "<group>"; };
+		78D647241CEA589800907C06 /* ListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListController.m; path = ../ListController.m; sourceTree = "<group>"; };
+		78D672B01CFB58AD000CBE3E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		78D672B21CFB5C89000CBE3E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		78D672B41CFB5C94000CBE3E /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		78E9EE901D662EE900F3E1B8 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = Pods/../build/Debug/AFNetworking/libAFNetworking.a; sourceTree = "<group>"; };
+		78E9EE941D662F1B00F3E1B8 /* libASIHTTPRequest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libASIHTTPRequest.a; path = Pods/../build/Debug/ASIHTTPRequest/libASIHTTPRequest.a; sourceTree = "<group>"; };
+		78E9EE951D662F1B00F3E1B8 /* libBolts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBolts.a; path = Pods/../build/Debug/Bolts/libBolts.a; sourceTree = "<group>"; };
+		78EFFF201CC40192007B60D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78EFFF211CC40192007B60D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78EFFF241CC40192007B60D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78EFFF261CC40192007B60D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78EFFF271CC40192007B60D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78EFFF291CC40192007B60D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78EFFF2C1CC40192007B60D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78EFFF341CC405FD007B60D2 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		78EFFF361CC4EC97007B60D2 /* importedFilesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = importedFilesController.h; sourceTree = "<group>"; };
+		78EFFF371CC4EC97007B60D2 /* importedFilesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = importedFilesController.m; sourceTree = "<group>"; };
+		78EFFF391CC4ED8F007B60D2 /* playController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playController.h; sourceTree = "<group>"; };
+		78EFFF3A1CC4ED8F007B60D2 /* playController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playController.m; sourceTree = "<group>"; };
+		78EFFF3C1CC50834007B60D2 /* doo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doo.h; sourceTree = "<group>"; };
+		78EFFF3D1CC50835007B60D2 /* doo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doo.m; sourceTree = "<group>"; };
+		78EFFF3F1CC50E6A007B60D2 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		78EFFF411CC52FCB007B60D2 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		78EFFF431CC52FD1007B60D2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		78EFFF451CC52FDD007B60D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78EFFF471CC55747007B60D2 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		78EFFF481CC55747007B60D2 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		78EFFF4A1CC56ED3007B60D2 /* rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rect.png; sourceTree = "<group>"; };
+		78EFFF4C1CC67E41007B60D2 /* NSImage+ContentMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+ContentMode.h"; sourceTree = "<group>"; };
+		78EFFF4D1CC67E41007B60D2 /* NSImage+ContentMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+ContentMode.m"; sourceTree = "<group>"; };
+		78EFFF4F1CC67EBE007B60D2 /* VSGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSGlobal.h; sourceTree = "<group>"; };
+		C0544D2A3630AF061F25F890 /* libPods-Musician Video Maker Pro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Musician Video Maker Pro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA20BDFD29B0CA0700441936 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		CA3CF17E1EBDD7140035E5D4 /* WOO_AVURLAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOO_AVURLAsset.h; sourceTree = "<group>"; };
+		CA3CF17F1EBDD7140035E5D4 /* WOO_AVURLAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOO_AVURLAsset.m; sourceTree = "<group>"; };
+		CA3CF1811EBDE6260035E5D4 /* WOO_AVCompositionTrackSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOO_AVCompositionTrackSegment.h; sourceTree = "<group>"; };
+		CA3CF1821EBDE6260035E5D4 /* WOO_AVCompositionTrackSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOO_AVCompositionTrackSegment.m; sourceTree = "<group>"; };
+		CA3CF1841EBE31540035E5D4 /* globalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globalData.h; sourceTree = "<group>"; };
+		CA3CF1851EBE31540035E5D4 /* globalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = globalData.m; sourceTree = "<group>"; };
+		CA3CF1871EBF74770035E5D4 /* button_u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_u.png; sourceTree = "<group>"; };
+		CAD77A271EBA0DDA00613BFA /* Wedding Video Maker Pro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Wedding Video Maker Pro.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		789D5AE41D0ADB650020FEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789D5AEE1D0ADB650020FEED /* SystemConfiguration.framework in Frameworks */,
+				7888B5AA1D3F9FD3001D7FC6 /* CFNetwork.framework in Frameworks */,
+				789D5AE51D0ADB650020FEED /* CoreFoundation.framework in Frameworks */,
+				789D5AE61D0ADB650020FEED /* CoreGraphics.framework in Frameworks */,
+				789D5AE71D0ADB650020FEED /* Security.framework in Frameworks */,
+				789D5AE81D0ADB650020FEED /* CoreImage.framework in Frameworks */,
+				789D5AE91D0ADB650020FEED /* libz.1.2.5.tbd in Frameworks */,
+				789D5AEA1D0ADB650020FEED /* libsqlite3.0.tbd in Frameworks */,
+				789D5AF61D0ADB650020FEED /* Quartz.framework in Frameworks */,
+				789D5AFA1D0ADB650020FEED /* QuartzCore.framework in Frameworks */,
+				789D5AFB1D0ADB650020FEED /* Foundation.framework in Frameworks */,
+				789D5AFD1D0ADB650020FEED /* AVFoundation.framework in Frameworks */,
+				789D5AFE1D0ADB650020FEED /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1720FBB2741309263505E48A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78E9EE941D662F1B00F3E1B8 /* libASIHTTPRequest.a */,
+				78E9EE951D662F1B00F3E1B8 /* libBolts.a */,
+				78E9EE901D662EE900F3E1B8 /* libAFNetworking.a */,
+				7888B5A91D3F9FD3001D7FC6 /* CFNetwork.framework */,
+				7825BDDA1D0A3F4F00774CB7 /* CoreFoundation.framework */,
+				7825BDD61D0988B100774CB7 /* CoreGraphics.framework */,
+				78C897631D060C7E00334C67 /* Security.framework */,
+				785374D01CFF06A700A2AB35 /* CoreImage.framework */,
+				78D672B41CFB5C94000CBE3E /* libz.1.2.5.tbd */,
+				78D672B21CFB5C89000CBE3E /* libsqlite3.0.tbd */,
+				C0544D2A3630AF061F25F890 /* libPods-Musician Video Maker Pro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78C8975C1D060C5B00334C67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				78C8975D1D060C5B00334C67 /* SSKeychain.h */,
+				78C8975E1D060C5B00334C67 /* SSKeychain.m */,
+				78C8975F1D060C5B00334C67 /* SSKeychainQuery.h */,
+				78C897601D060C5B00334C67 /* SSKeychainQuery.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		78D4692B1CF2088200E1EC51 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				78D4692C1CF2088200E1EC51 /* json-forwards.h */,
+				78D4692D1CF2088200E1EC51 /* json.h */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		78EFFF141CC40192007B60D2 = {
+			isa = PBXGroup;
+			children = (
+				CA20BDFD29B0CA0700441936 /* File.swift */,
+				CAD77A271EBA0DDA00613BFA /* Wedding Video Maker Pro.entitlements */,
+				78D672B01CFB58AD000CBE3E /* SystemConfiguration.framework */,
+				78950BEF1CF47E0A00EE8F58 /* Quartz.framework */,
+				78950BED1CF47E0100EE8F58 /* QuartzCore.framework */,
+				78EFFF451CC52FDD007B60D2 /* Foundation.framework */,
+				78EFFF431CC52FD1007B60D2 /* AVFoundation.framework */,
+				78EFFF411CC52FCB007B60D2 /* AVKit.framework */,
+				78EFFF1F1CC40192007B60D2 /* MusicVideoMaker */,
+				78EFFF1E1CC40192007B60D2 /* Products */,
+				1720FBB2741309263505E48A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78EFFF1E1CC40192007B60D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				789D5B151D0ADB650020FEED /* Musician Video Maker Pro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78EFFF1F1CC40192007B60D2 /* MusicVideoMaker */ = {
+			isa = PBXGroup;
+			children = (
+				CA3CF1871EBF74770035E5D4 /* button_u.png */,
+				789D5B181D0B27840020FEED /* dsa_pub.pem */,
+				7825BDCE1D08C1C200774CB7 /* NSString+MD5.h */,
+				7825BDCF1D08C1C200774CB7 /* NSString+MD5.m */,
+				78D4692B1CF2088200E1EC51 /* json */,
+				78D4692E1CF2088200E1EC51 /* jsoncpp.cpp */,
+				78D647231CEA589800907C06 /* ListController.h */,
+				78D647241CEA589800907C06 /* ListController.m */,
+				78D469081CECBAC400E1EC51 /* Clip.h */,
+				78D469091CECBAC400E1EC51 /* Clip.mm */,
+				CA3CF1841EBE31540035E5D4 /* globalData.h */,
+				CA3CF1851EBE31540035E5D4 /* globalData.m */,
+				CA3CF17E1EBDD7140035E5D4 /* WOO_AVURLAsset.h */,
+				CA3CF17F1EBDD7140035E5D4 /* WOO_AVURLAsset.m */,
+				CA3CF1811EBDE6260035E5D4 /* WOO_AVCompositionTrackSegment.h */,
+				CA3CF1821EBDE6260035E5D4 /* WOO_AVCompositionTrackSegment.m */,
+				78812DA51CE742E700CE3AFA /* customTableRowView.h */,
+				78812DA61CE742E700CE3AFA /* customTableRowView.m */,
+				78812D9F1CE7421100CE3AFA /* WWCellCustom1.h */,
+				78812DA01CE7421100CE3AFA /* WWCellCustom1.m */,
+				78812DA11CE7421100CE3AFA /* WWNSTableView.h */,
+				78812DA21CE7421100CE3AFA /* WWNSTableView.mm */,
+				78D469111CEE312000E1EC51 /* functions.cpp */,
+				78D469121CEE312000E1EC51 /* functions.h */,
+				78812D961CE3CF3400CE3AFA /* SDAVAssetExportSession.h */,
+				78812D971CE3CF3400CE3AFA /* SDAVAssetExportSession.m */,
+				78EFFF4F1CC67EBE007B60D2 /* VSGlobal.h */,
+				78EFFF4C1CC67E41007B60D2 /* NSImage+ContentMode.h */,
+				78EFFF4D1CC67E41007B60D2 /* NSImage+ContentMode.m */,
+				78EFFF4A1CC56ED3007B60D2 /* rect.png */,
+				78EFFF3F1CC50E6A007B60D2 /* data.json */,
+				78EFFF341CC405FD007B60D2 /* icon.icns */,
+				78EFFF3C1CC50834007B60D2 /* doo.h */,
+				78EFFF3D1CC50835007B60D2 /* doo.m */,
+				78C037C01D11A1FE00916FB2 /* NSImage+CGImage.h */,
+				78C037C11D11A1FE00916FB2 /* NSImage+CGImage.m */,
+				78EFFF201CC40192007B60D2 /* AppDelegate.h */,
+				78EFFF211CC40192007B60D2 /* AppDelegate.m */,
+				78C8976B1D0708FD00334C67 /* paymentFormatter.h */,
+				78C8976C1D0708FD00334C67 /* paymentFormatter.m */,
+				78EFFF261CC40192007B60D2 /* ViewController.h */,
+				78EFFF271CC40192007B60D2 /* ViewController.m */,
+				78EFFF361CC4EC97007B60D2 /* importedFilesController.h */,
+				78EFFF371CC4EC97007B60D2 /* importedFilesController.m */,
+				78C037C31D13DBB300916FB2 /* musicianvideomaker4.png */,
+				78C8974C1D030ECA00334C67 /* alpha.mov */,
+				78EFFF391CC4ED8F007B60D2 /* playController.h */,
+				78EFFF3A1CC4ED8F007B60D2 /* playController.m */,
+				783D83761CFF2B470010C9B7 /* imageCalibrationPopoverController.h */,
+				783D83771CFF2B470010C9B7 /* imageCalibrationPopoverController.m */,
+				781BB4991CC900B800F81BBB /* customImageView.h */,
+				781BB49A1CC900B800F81BBB /* customImageView.m */,
+				781BB4961CC7918C00F81BBB /* customTrackingArea.h */,
+				781BB4971CC7918C00F81BBB /* customTrackingArea.m */,
+				78EFFF471CC55747007B60D2 /* WindowController.h */,
+				78EFFF481CC55747007B60D2 /* WindowController.m */,
+				78C037C51D13E25C00916FB2 /* watermark1.png */,
+				78C897521D05A68400334C67 /* TDAuthWindowController.h */,
+				78C897531D05A68400334C67 /* TDAuthWindowController.m */,
+				78950BE41CF373D500EE8F58 /* splashWindowController.h */,
+				78950BE51CF373D500EE8F58 /* splashWindowController.m */,
+				78812FBB1CE783AA00CE3AFA /* filesWindowController.h */,
+				78812FBC1CE783AA00CE3AFA /* filesWindowController.m */,
+				78812D931CE346B100CE3AFA /* mainController.h */,
+				78812D941CE346B200CE3AFA /* mainController.m */,
+				78950BE71CF374D800EE8F58 /* splashController.h */,
+				78C8974A1D02D86400334C67 /* loop.mp4 */,
+				78950BE81CF374D800EE8F58 /* splashController.m */,
+				78D4690B1CED460300E1EC51 /* customTableView.h */,
+				78D4690C1CED460300E1EC51 /* customTableView.m */,
+				78D4690E1CED47E300E1EC51 /* customCellView.h */,
+				78D4690F1CED47E300E1EC51 /* customCellView.m */,
+				78950BEA1CF47C9200EE8F58 /* JNWAnimatableWindow.h */,
+				78950BEB1CF47C9200EE8F58 /* JNWAnimatableWindow.m */,
+				786DC5CF1D074382000EA925 /* RMStore.h */,
+				78C037BE1D10694A00916FB2 /* 1024_1024.png */,
+				786DC5D01D074383000EA925 /* RMStore.m */,
+				78C897501D05A63300334C67 /* TodoList.icns */,
+				78C8975C1D060C5B00334C67 /* Sources */,
+				78C8974E1D05A62700334C67 /* TDAuthWindowController.xib */,
+				78EFFF291CC40192007B60D2 /* Assets.xcassets */,
+				78EFFF2B1CC40192007B60D2 /* Main.storyboard */,
+				786DC6911D0837AE000EA925 /* subscriptionList.h */,
+				786DC6921D0837AE000EA925 /* subscriptionList.m */,
+				786DC6931D0837AE000EA925 /* subscriptionList.xib */,
+				78C037C71D1464F600916FB2 /* exportSubscriptionAd.h */,
+				78C037C81D1464F600916FB2 /* exportSubscriptionAd.m */,
+				78C037C91D1464F600916FB2 /* exportSubscriptionAd.xib */,
+				7825BDD11D09579900774CB7 /* EditingControls.h */,
+				7825BDD21D09579900774CB7 /* EditingControls.m */,
+				788F8F902CEE68DB0078D5C7 /* CustomAVPlayerView.h */,
+				788F8F922CEE68FC0078D5C7 /* CustomAVPlayerView.m */,
+				7825BDD31D09579900774CB7 /* EditingControls.xib */,
+				78EFFF231CC40192007B60D2 /* Supporting Files */,
+			);
+			name = MusicVideoMaker;
+			path = "Music Video Maker";
+			sourceTree = "<group>";
+		};
+		78EFFF231CC40192007B60D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78EFFF241CC40192007B60D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		789D5ABF1D0ADB650020FEED /* Musician Video Maker Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789D5B121D0ADB650020FEED /* Build configuration list for PBXNativeTarget "Musician Video Maker Pro" */;
+			buildPhases = (
+				789D5AC11D0ADB650020FEED /* Sources */,
+				789D5AE41D0ADB650020FEED /* Frameworks */,
+				789D5B021D0ADB650020FEED /* Resources */,
+				789D5B111D0ADB650020FEED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Musician Video Maker Pro";
+			productName = "Music Video Maker";
+			productReference = 789D5B151D0ADB650020FEED /* Musician Video Maker Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78EFFF151CC40192007B60D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Woowave;
+				TargetAttributes = {
+					789D5ABF1D0ADB650020FEED = {
+						DevelopmentTeam = GF7K354RN3;
+						LastSwiftMigration = 1340;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 78EFFF181CC40192007B60D2 /* Build configuration list for PBXProject "Musician Video Maker Pro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 78EFFF141CC40192007B60D2;
+			productRefGroup = 78EFFF1E1CC40192007B60D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				789D5ABF1D0ADB650020FEED /* Musician Video Maker Pro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		789D5B021D0ADB650020FEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C037C61D13E25C00916FB2 /* watermark1.png in Resources */,
+				789D5B031D0ADB650020FEED /* icon.icns in Resources */,
+				78C037C41D13DBB300916FB2 /* musicianvideomaker4.png in Resources */,
+				CA3CF1881EBF74770035E5D4 /* button_u.png in Resources */,
+				789D5B041D0ADB650020FEED /* TDAuthWindowController.xib in Resources */,
+				789D5B061D0ADB650020FEED /* Assets.xcassets in Resources */,
+				78C037CB1D1464F600916FB2 /* exportSubscriptionAd.xib in Resources */,
+				789D5B071D0ADB650020FEED /* EditingControls.xib in Resources */,
+				789D5B081D0ADB650020FEED /* Main.storyboard in Resources */,
+				789D5B091D0ADB650020FEED /* loop.mp4 in Resources */,
+				789D5B0A1D0ADB650020FEED /* data.json in Resources */,
+				789D5B191D0B27840020FEED /* dsa_pub.pem in Resources */,
+				789D5B0B1D0ADB650020FEED /* rect.png in Resources */,
+				789D5B0C1D0ADB650020FEED /* subscriptionList.xib in Resources */,
+				789D5B0D1D0ADB650020FEED /* TodoList.icns in Resources */,
+				789D5B0E1D0ADB650020FEED /* alpha.mov in Resources */,
+				78C037BF1D10694A00916FB2 /* 1024_1024.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		789D5AC11D0ADB650020FEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789D5AC21D0ADB650020FEED /* WWCellCustom1.m in Sources */,
+				CA3CF1861EBE31540035E5D4 /* globalData.m in Sources */,
+				789D5AC31D0ADB650020FEED /* doo.m in Sources */,
+				788F8F932CEE68FC0078D5C7 /* CustomAVPlayerView.m in Sources */,
+				789D5AC41D0ADB650020FEED /* WWNSTableView.mm in Sources */,
+				789D5AC51D0ADB650020FEED /* mainController.m in Sources */,
+				CA20BDFE29B0CA0700441936 /* File.swift in Sources */,
+				789D5AC61D0ADB650020FEED /* splashController.m in Sources */,
+				789D5AC71D0ADB650020FEED /* customTrackingArea.m in Sources */,
+				789D5AC81D0ADB650020FEED /* JNWAnimatableWindow.m in Sources */,
+				CA3CF1831EBDE6260035E5D4 /* WOO_AVCompositionTrackSegment.m in Sources */,
+				789D5AC91D0ADB650020FEED /* RMStore.m in Sources */,
+				789D5ACA1D0ADB650020FEED /* SSKeychain.m in Sources */,
+				789D5ACB1D0ADB650020FEED /* customTableView.m in Sources */,
+				789D5ACC1D0ADB650020FEED /* splashWindowController.m in Sources */,
+				789D5ACD1D0ADB650020FEED /* paymentFormatter.m in Sources */,
+				789D5ACE1D0ADB650020FEED /* functions.cpp in Sources */,
+				78C037CA1D1464F600916FB2 /* exportSubscriptionAd.m in Sources */,
+				789D5ACF1D0ADB650020FEED /* Clip.mm in Sources */,
+				789D5AD01D0ADB650020FEED /* customCellView.m in Sources */,
+				789D5AD11D0ADB650020FEED /* NSString+MD5.m in Sources */,
+				789D5AD21D0ADB650020FEED /* subscriptionList.m in Sources */,
+				789D5AD31D0ADB650020FEED /* WindowController.m in Sources */,
+				789D5AD41D0ADB650020FEED /* ViewController.m in Sources */,
+				789D5AD51D0ADB650020FEED /* filesWindowController.m in Sources */,
+				789D5AD61D0ADB650020FEED /* ListController.m in Sources */,
+				789D5AD71D0ADB650020FEED /* playController.m in Sources */,
+				789D5AD81D0ADB650020FEED /* imageCalibrationPopoverController.m in Sources */,
+				789D5AD91D0ADB650020FEED /* jsoncpp.cpp in Sources */,
+				789D5ADA1D0ADB650020FEED /* customImageView.m in Sources */,
+				CA3CF1801EBDD7140035E5D4 /* WOO_AVURLAsset.m in Sources */,
+				789D5ADB1D0ADB650020FEED /* customTableRowView.m in Sources */,
+				789D5ADC1D0ADB650020FEED /* TDAuthWindowController.m in Sources */,
+				789D5ADD1D0ADB650020FEED /* SDAVAssetExportSession.m in Sources */,
+				789D5ADE1D0ADB650020FEED /* SSKeychainQuery.m in Sources */,
+				789D5ADF1D0ADB650020FEED /* main.m in Sources */,
+				788F8F912CEE68DB0078D5C7 /* CustomAVPlayerView.h in Sources */,
+				789D5AE01D0ADB650020FEED /* EditingControls.m in Sources */,
+				789D5AE11D0ADB650020FEED /* AppDelegate.m in Sources */,
+				789D5AE21D0ADB650020FEED /* importedFilesController.m in Sources */,
+				789D5AE31D0ADB650020FEED /* NSImage+ContentMode.m in Sources */,
+				78C037C21D11A1FE00916FB2 /* NSImage+CGImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78EFFF2B1CC40192007B60D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78EFFF2C1CC40192007B60D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		789D5B131D0ADB650020FEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Wedding Video Maker Pro.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GF7K354RN3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/frameworks",
+					"$(PROJECT_DIR)/MusicVideomaker",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DIRECT=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/include\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MusicVideoMaker",
+					"/openssl-1.0.1e/lib",
+					"$(PROJECT_DIR)/MusicVideoMaker",
+					"$(PROJECT_DIR)/build/Debug/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug/DJProgressHUD_OSX",
+					"$(PROJECT_DIR)/build/Debug/ASIHTTPRequest",
+					"$(PROJECT_DIR)/build/Debug/Bolts",
+					"$(PROJECT_DIR)/build/Debug/Parse",
+					"$(PROJECT_DIR)/build/Debug",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				PRODUCT_BUNDLE_IDENTIFIER = woowave.wedding.video.maker.pro.osx2;
+				PRODUCT_NAME = "Musician Video Maker Pro";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		789D5B141D0ADB650020FEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Wedding Video Maker Pro.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GF7K354RN3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/frameworks",
+					"$(PROJECT_DIR)/MusicVideomaker",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DIRECT=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/include\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MusicVideoMaker",
+					"/openssl-1.0.1e/lib",
+					"$(PROJECT_DIR)/MusicVideoMaker",
+					"$(PROJECT_DIR)/build/Debug/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug/DJProgressHUD_OSX",
+					"$(PROJECT_DIR)/build/Debug/ASIHTTPRequest",
+					"$(PROJECT_DIR)/build/Debug/Bolts",
+					"$(PROJECT_DIR)/build/Debug/Parse",
+					"$(PROJECT_DIR)/build/Debug",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				PRODUCT_BUNDLE_IDENTIFIER = woowave.wedding.video.maker.pro.osx2;
+				PRODUCT_NAME = "Musician Video Maker Pro";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		78EFFF2F1CC40192007B60D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "Musician Video Maker.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GF7K354RN3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		78EFFF301CC40192007B60D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "Musician Video Maker.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GF7K354RN3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		789D5B121D0ADB650020FEED /* Build configuration list for PBXNativeTarget "Musician Video Maker Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789D5B131D0ADB650020FEED /* Debug */,
+				789D5B141D0ADB650020FEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78EFFF181CC40192007B60D2 /* Build configuration list for PBXProject "Musician Video Maker Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78EFFF2F1CC40192007B60D2 /* Debug */,
+				78EFFF301CC40192007B60D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78EFFF151CC40192007B60D2 /* Project object */;
+}
